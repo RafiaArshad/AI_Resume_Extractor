@@ -20,7 +20,7 @@ spacy>=3.7.0
 
 # Data
 pydantic>=2.5.0
-PyMuPDF
+PyMuPDF==1.24.9
 
 #Database
 aiosqlite
