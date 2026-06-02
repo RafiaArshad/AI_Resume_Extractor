@@ -130,19 +130,10 @@ def get_db() -> aiosqlite.Connection:
 # ─────────────────────────────────────────────────────────────
 # Education-level extraction
 # ─────────────────────────────────────────────────────────────
-#
 # Priority order: PhD > Master > Bachelor > Associate > Diploma
 # The list is intentionally ordered highest-to-lowest so the first
 # pattern that matches any education entry wins for that entry.
 # Across ALL education entries we keep the globally-highest match.
-#
-# Regex design rules applied here:
-#   1. Word boundaries (\b) prevent "ma" inside "management" from
-#      being treated as an M.A. abbreviation.
-#   2. Abbreviations with optional dots (b\.?s\.?) use \b on both
-#      sides so they don't match mid-word.
-#   3. Patterns are anchored to the start of a word where possible.
-#   4. Each group is non-capturing (?:…) for efficiency.
 # ─────────────────────────────────────────────────────────────
 
 _LEVEL_PATTERNS: List[tuple] = [
