@@ -7,13 +7,13 @@ It uses a **FastAPI backend** for processing and a **React frontend** for an int
 
 ## 🚀 Features
 
-- 📄 Upload resumes (PDF / DOCX)
-- 🧠 Extract text using AI-based parsing
-- 🧾 Structured candidate information extraction
-- 🔍 Intelligent resume analysis
-- 🌐 Modern and responsive UI
-- ⚡ Fast API-based backend processing
-
+- 📄 Resume Upload (PDF / DOCX)
+- 🧠 AI-based Resume Parsing
+- 📊 Structured Data Extraction
+- 🔍 Skill Detection & Classification
+- 🗂️ Experience & Education Parsing
+- ⚡ Fast API Response
+- 🌐 Full-stack deployment
 ---
 
 ## 🏗️ Tech Stack
@@ -50,3 +50,31 @@ AI_Resume_Extractor/
 │
 ├── .gitignore
 └── README.md
+
+## 🌐 Live Demo
+
+👉 Frontend (Vercel):   https://ai-resume-extractor.vercel.app/
+
+---
+
+## 📌 Project Overview
+
+This project automatically:
+- Uploads resumes (PDF/DOCX)
+- Extracts text using OCR & parsing tools
+- Applies NLP-based processing
+- Extracts:
+  - Name
+  - Email / Phone
+  - Skills
+  - Experience
+  - Education
+  - Projects
+- Stores structured data in database
+- Provides API for frontend integration
+
+---
+### Deployment
+- Frontend: Vercel
+- Backend: Render
+
