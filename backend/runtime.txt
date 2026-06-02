@@ -1,0 +1,2 @@
+#Render for backend deployment, pymupdf supports this version of python
+python-3.12.4   
