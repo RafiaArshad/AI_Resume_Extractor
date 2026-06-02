@@ -16,7 +16,7 @@ import type {
 const ENV = import.meta.env as Record<string, string | undefined>;
 
 export const API_BASE =
-  ENV.VITE_API_BASE ?? "http://localhost:8000";
+  ENV.VITE_API_BASE ?? "https://ai-resume-extractor-9qi8.onrender.com";
 
 const RESUME_BASE = `${API_BASE}/api/resume`;
 
