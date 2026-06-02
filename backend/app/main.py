@@ -96,7 +96,9 @@ _raw_origins = os.getenv(
     "http://localhost:5173, " \
     "http://127.0.0.1:5173, " \
     "http://localhost:3000, " \
+    "https://ai-resume-extractor.vercel.app/, " \
     "http://localhost:5713",
+    
 )
 
 ALLOWED_ORIGINS = [o.strip() for o in _raw_origins.split(",") if o.strip()]
