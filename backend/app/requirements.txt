@@ -1,0 +1,20 @@
+fastapi
+uvicorn
+pymupdf
+python-docx
+pytesseract
+spacy
+transformers
+torch
+pymongo
+python-multipart
+pydantic
+numpy
+pandas
+scikit-learn
+pdfplumber
+python-docx
+requests
+uvicorn
+requests
+# python -m spacy download en_core_web_sm
