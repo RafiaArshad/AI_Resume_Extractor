@@ -1,15 +1,12 @@
 # app/services/skill_scoring.py
 """
 Skill confidence scoring and domain classification.
-
-IMPROVEMENTS:
   ✔ Deterministic confidence scores (0–100) per hard skill
   ✔ Soft skills returned as plain strings — NO scores
   ✔ "other" category suppressed from output
   ✔ Frequency + context proximity weighting
   ✔ Rule-based domain classification with percentage breakdown
   ✔ Improved domain keyword coverage
-  ✔ Better C/C++ handling in context bonus
 """
 
 import re
